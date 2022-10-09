@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="import" href="https://fonts.google.com/specimen/Montserrat?query=monts.html">
+    <link rel="stylesheet" href="style-contato.css">
+    <title>Incuba3D - Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="../imagens/logo-incuba3D.jpg" width="180px" alt="logo-incuba3d">
+            <nav>
+                <li><a href="index.html">home</a></li>
+                <li><a href="produtos.html">produtos</a></li>
+                <li><a href="contato.html">contato</a></li>    
+            </nav>
+        </div>
+    </header> 
+    <main>
+        <h1>Contate-nos via email, telefone ou pelas redes sociais.</h1>
+        <section class="corpo">
+            <article>
+                <div id="dados">
+                    <form action="/em-branco" method="post"></form>
+                        <label> Nome </label>
+                        <input type="text"><br>
+                    <form action="/em-branco" method="post"></form>
+                        <label> Telefone </label>
+                        <input type="text"><br>
+                    <form action="/em-branco" method="post"></form>
+                        <label> Email </label>
+                        <input type="text"><br>
+                    <form action="/em-branco" method="post"></form>
+                        <label> Mensagem </label>
+                        <input class="mensagem" type="text"><br>
+                </div>
+            
+                <div id="produto">
+                    <h2>Como você prefere ser contactado?</h2>
+                    <div class="contato">
+                        <li><input class="whats" type="radio" name="opção" id="whatsapp" value="whatsapp">Whatsapp</li>
+                        <li><input class="fone" type="radio" name="opção" id="telefone" value="telefone">Telefone</li>
+                        <li><input class="mail" type="radio" name="opção" id="email" value="email">Email</li>
+                    </div>
+                    <div class="cod_produto">
+                        <form action="/em-branco" method="post"></form>
+                        <label> Cod. Produto </label>
+                        <input class="cod" type="text"><br>
+                        <button type="submit" onclick="enviar">enviar</button>
+                    </div>  
+                </div> 
+            </article>         
+        </section>  
+    </main>
+    <footer>
+        <div class="rodape">
+           <div class="whatsapp">   
+                <img class="logo_whatsapp" src="../imagens/logo_whatsapp.jfif" width="10px" alt="whatsapp">
+                <h2>(81) 90000-0000 </h2>
+            </div>
+            <div class="logo_rodape">
+                <img class="logo" src="../imagens/logo-incuba3D.jpg" width="25px" alt="logo-incuba3d">
+            </div>
+            <div class="instagram">
+            <img class="logo_instagram" src="../imagens/logo_instagram.jfif" width="10px" alt="instagram">
+                <li class="li_instagram"><a href="https://www.instagram.com/incuba3d/" target="_blank" rel="external">Incuba3D</a></li>
+            </div>  
+        </div>
+            <h4>Todos os direitos reservados.</h4>
+    </footer>
+             
+ 
+ <script src="botao.js"></script>
+</body>
+</html>

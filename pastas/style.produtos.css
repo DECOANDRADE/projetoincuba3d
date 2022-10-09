@@ -1,0 +1,302 @@
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    border-bottom: 10px #e8c931 solid;
+}
+
+.cabecalho {
+  position: relative;
+  height: 200px;
+  width: 980px;
+  margin: auto;
+}
+
+div img {
+    height: 180px;
+    width: 180px; 
+    margin-left: 0px;
+}
+
+nav {
+    position: absolute;
+    right: 0;        
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder; 
+}
+
+div nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    color: black;
+    background-color: #e8c931;
+    margin-right: 0;   
+}
+
+div nav li a:hover {
+    background-color: #306680;
+    color: #e8c931;
+    bottom: 100%;       
+}
+
+main {
+    width: 980px;
+    align-items: center;
+    margin: 50px auto;    
+}
+
+div {
+    display: flex; 
+    width: 980px;
+    align-items: center;
+}
+
+.corpo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 50px 0 20px 0px;
+}
+
+.decoracao {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8ca318c;
+    border: 1px rgb(180, 179, 179) solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    width: 980px;
+    height: 250px;   
+}
+
+.vaso-bota {
+    display: block;
+    text-align: center;  
+}
+.vaso-banda {
+    display: block;
+    text-align: center;  
+}
+.vaso-familia {
+    display: block;
+    text-align: center;  
+}
+
+.decoracao li {
+    list-style: none;
+    margin: auto;    
+}
+.bota  {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.banda {
+    border: 1px black solid;
+    border-radius: 15px;   
+}
+
+.familia {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+
+
+
+.datas {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8ca318c;
+    border: 1px rgb(180, 179, 179) solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    width: 980px;
+    height: 250px;   
+}
+.pais {
+    display: block;
+    text-align: center;  
+}
+.escultura-jesus {
+    display: block;
+    text-align: center;  
+}
+.porta-canetas {
+    display: block;
+    text-align: center;  
+}
+
+.datas li {
+    list-style: none;
+    margin: auto;
+}
+.retrato  {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.jesus {
+    border: 1px black solid;
+    border-radius: 15px;   
+}
+
+.caveira {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+
+
+.personalizados {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8ca318c;
+    border: 1px rgb(180, 179, 179) solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    width: 980px;
+    height: 250px;   
+}
+
+.toten {
+    display: block;
+    text-align: center;  
+}
+
+.porta-retrato {
+    display: block;
+    text-align: center;  
+}
+
+.declaracao {
+    display: block;
+    text-align: center;  
+}
+
+
+
+.personalizados li {
+    list-style: none;
+    margin: auto;
+
+}
+.cerveja  {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.pai {
+    border: 1px black solid;
+    border-radius: 15px;
+    
+}
+
+.declara {
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    border-top: 10px #e8c931 solid;    
+}
+
+.rodape {
+    width: 980px;
+    height: 150px;
+    margin: auto;
+    position: relative; 
+    display: static;
+    padding: auto;
+}
+  
+.whatsapp {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+   
+    
+}
+
+.logo_whatsapp {
+    width: 30px;
+    height: 30px;
+      
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.instagram {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+   
+      
+}
+
+.logo_instagram {
+    width: 30px;
+    height: 30px;   
+}
+
+.li_instagram {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.li_instagram a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo_rodape {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+
+.logo {
+    width: 140px;
+    height: 140px;     
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px;
+}
